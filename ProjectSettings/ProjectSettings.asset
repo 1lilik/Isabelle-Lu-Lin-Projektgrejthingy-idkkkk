@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< HEAD
   productGUID: 99d1304c4e33d2a4db4b32c536cc08e3
+=======
+  productGUID: dfcba0ae6e65f7544b4a642a49f83554
+>>>>>>> d131db269d8aeb89ec59946086e983c709302290
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Isabelle-Lu-Lin-Projektgrejthingy-idkkkk
+=======
+  productName: My project (2)
+>>>>>>> d131db269d8aeb89ec59946086e983c709302290
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
