@@ -16,7 +16,7 @@ public class Shooter : MonoBehaviour
     [SerializeField]
     Projectile projectilePrefab;
     [SerializeField]
-    Transform spawnLocation;
+    Transform BulletSpawningPlace;
 
 
     float timer = 0;
@@ -35,9 +35,9 @@ public class Shooter : MonoBehaviour
         if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0)
         {
             Vector2 pos = transform.position;
-            if(spawnLocation != null)
+            if(BulletSpawningPlace != null)
             {
-                pos = spawnLocation.position;
+                pos = BulletSpawningPlace.position;
             }
 
             Projectile p = Instantiate(projectilePrefab, pos, Quaternion.identity);
