@@ -370,7 +370,6 @@ GameObject:
   - component: {fileID: 394040798}
   - component: {fileID: 394040797}
   - component: {fileID: 394040796}
-  - component: {fileID: 394040802}
   - component: {fileID: 394040803}
   m_Layer: 0
   m_Name: HUBBE
@@ -558,18 +557,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &394040802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394040794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a9f5f417688a047a30c5ca2be5c50f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &394040803
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2674,7 +2661,7 @@ GameObject:
   - component: {fileID: 1541420023}
   - component: {fileID: 1541420026}
   m_Layer: 0
-  m_Name: slut
+  m_Name: End sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
